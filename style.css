@@ -1,11 +1,15 @@
+html{
+  width: 100%;
+  height: 100%;
+}
 body{
   background-image: url(https://images.unsplash.com/photo-1615750671593-ecb5ae90d981?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxyYWlufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=60);
   background-size: cover;
   background-position: center;
   color: black;
   margin: 0;
-  
-  height: 1000px;
+  width: 100%;
+  height: 100%;
 }
 header{
   display: flex;
@@ -19,11 +23,11 @@ h1{
   position: fixed;
   top: 10px;
   right: 20px;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   text-align: center;
-  line-height: 30px;
-  font-size: 50px;
+  line-height: 20px;
+  font-size: 30px;
   cursor: pointer;
   user-select: none;
 }
@@ -143,44 +147,24 @@ h2{
   margin-left: 30px;
 }
 .container{
-  display: flex;
-  justify-content: space-around;
+  margin: 20px auto;
 }
 .title img{
-  margin-top: 50px;
-  width: 150px;
+  width: 100%;
+  max-width: 100%;
 }
-
 .museum img{
-  margin-top: 50px;
-  width: 150px;
-  margin-left: 20px;
-  margin-bottom: 10px;
+  width: 100%;
+  max-width: 100%;
 }
+
 nav{
-  width: 150px;
+  width: 100%;
+  margin: 20px auto;
+  max-width: 100%;
   font-size: 14px;
-  margin-left: 20px;
-  font-weight: bold;
+  
 }
 
-@media (min-width:800px) {
-  .title img{
-    width: 400px;
-  }
-
-  .museum img{
-    width: 400px;
-    margin-left: 40px;
-    margin-bottom: 50px;
-  }
-  nav{
-    font-size: 24px;
-    margin-left: 40px;
-    font-weight: bold;
-  }
-
-
-}
 
 
